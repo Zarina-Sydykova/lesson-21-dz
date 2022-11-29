@@ -1,2 +1,6 @@
-package PACKAGE_NAME;public interface ServiceAble {
+import java.time.LocalDate;
+
+public interface ServiceAble {
+ LocalDate getAge(Customer[] customers);
+
 }
